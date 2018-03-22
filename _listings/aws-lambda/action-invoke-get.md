@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=Invoke&k=1:
+  /?Action=Invoke:
     get:
       summary: ' Invoke '
       description: Invokes a specific Lambda function
