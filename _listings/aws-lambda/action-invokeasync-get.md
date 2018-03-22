@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=InvokeAsync&k=1:
+  /?Action=InvokeAsync:
     get:
       summary: ' Invoke Async '
       description: ImportantThis API is deprecated
