@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateFunctionConfiguration&k=1:
+  /?Action=UpdateFunctionConfiguration:
     get:
       summary: ' Update Function Configuration '
       description: Updates the configuration parameters for the specified Lambda function
