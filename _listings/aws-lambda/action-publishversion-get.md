@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PublishVersion&k=1:
+  /?Action=PublishVersion:
     get:
       summary: ' Publish Version '
       description: Publishes a version of your function from the current snapshot
