@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListFunctions&k=1:
+  /?Action=ListFunctions:
     get:
       summary: ' List Functions '
       description: Returns a list of your Lambda functions
