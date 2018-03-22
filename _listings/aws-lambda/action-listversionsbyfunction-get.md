@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListVersionsByFunction&k=1:
+  /?Action=ListVersionsByFunction:
     get:
       summary: ' List Versions By Function '
       description: List all versions of a function
