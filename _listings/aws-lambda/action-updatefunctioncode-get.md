@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateFunctionCode&k=1:
+  /?Action=UpdateFunctionCode:
     get:
       summary: ' Update Function Code '
       description: Updates the code for the specified Lambda function
